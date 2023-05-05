@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-menu.component.scss']
 })
 export class MainMenuComponent {
-
+  isEnable: boolean = true;
+  disableMenu(){
+    this.isEnable=false;
+  }
 }
