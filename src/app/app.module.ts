@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { EscenarioComponent } from './components/escenario/escenario.component';
+import { PlataformaComponent } from './components/plataforma/plataforma.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainMenuComponent,
-    EscenarioComponent
+    EscenarioComponent,
+    PlataformaComponent
   ],
   imports: [
     BrowserModule,
