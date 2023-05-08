@@ -1,7 +1,5 @@
-<p>plataforma works!</p>
-
-<div [@animacionPlataforma]="isEnable" class="cuadro">
-  <img
-  src=".\assets\images\escenario\plataforma.png" width="50" height="50"
-  style="position:absolute; top:150px; left: 30px"/>
+<div *ngIf="isEnable">
+<img src=".\assets\images\escenario\plataforma.png" width="50" height="50"
+     [style.transform]="'translateX(' + x + 'px) translateY(' + y + 'px)'"
+     style="position: absolute;">
 </div>
