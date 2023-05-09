@@ -7,21 +7,14 @@ import { Plataforma } from 'src/app/model/Plataforma';
   styleUrls: ['./escenario.component.scss']
 })
 export class EscenarioComponent {
-  zoom: number = 5;
+  zoom: number = 2;
   plataformas: Plataforma[] = [
-    new Plataforma(10,10),
-    new Plataforma(20,10),
-    new Plataforma(20,10),
-    new Plataforma(30,10),
-    new Plataforma(40,10),
-    new Plataforma(60,10),
-    new Plataforma(70,10),
-    new Plataforma(80,10),
-    new Plataforma(90,10),
-    new Plataforma(100,10),
-    new Plataforma(120,10),
-    new Plataforma(130,10),
-    new Plataforma(140,10),
-    new Plataforma(150,10)
+    new Plataforma([0,523],[784,513]),
+    new Plataforma([26,431],[707,451]),
+    new Plataforma([78,376],[758,353]),
+    new Plataforma([27,280],[706,299]),
+    new Plataforma([76,221],[757,202]),
+    new Plataforma([27,80],[707,145])
   ];
+
 }

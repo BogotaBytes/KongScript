@@ -1,7 +1,5 @@
-<p>escenario works!</p>
-
 <div *ngFor="let plataforma of plataformas">
-  <app-plataforma [isEnable]="true"   [x]="plataforma.x*zoom" [y]="plataforma.y*zoom"></app-plataforma>
+  <app-plataforma [isEnable]="true"   [plataforma]="plataforma" [zoom]="zoom"></app-plataforma>
 </div>
 
 

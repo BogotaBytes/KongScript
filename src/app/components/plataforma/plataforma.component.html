@@ -1,5 +1,3 @@
-<div *ngIf="isEnable">
-<img src=".\assets\images\escenario\plataforma.png" width="50" height="50"
-     [style.transform]="'translateX(' + x + 'px) translateY(' + y + 'px)'"
-     style="position: absolute;">
+<div *ngFor="let bloque of plataforma.bloques">
+  <app-bloque [isEnable]="true"   [x]="bloque.x*zoom" [y]="bloque.y*zoom"></app-bloque>
 </div>
